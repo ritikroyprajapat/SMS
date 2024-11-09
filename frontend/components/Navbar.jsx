@@ -67,8 +67,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-
-
-git add .
-git commit -m "thurd"
-git push -u origin main
