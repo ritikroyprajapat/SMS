@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Cookies from "js-cookie"
 import Logout from './Logout';
-import Hero from './hero';
+import Hero from './Hero';
 import AddData from './AddData';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -66,3 +66,9 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+git add .
+git commit -m "thurd"
+git push -u origin main
