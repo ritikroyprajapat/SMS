@@ -31,12 +31,8 @@ try {
 app.use('/', addData)
 
 //deploying code
-if(process.env.NODE_ENV === "production")
-{
-   const dirpath=path.resolve();
-   app.use(express.static(path.join("frontend/dist")))
-   app.get("*",(req,res)=>{
-    res.sendFile(path.resolve(dirpath,"frontend","dist","index.html"))
-   })
-}
+
+app.get("/",(req,res)=>{
+    res.send("Hello World")
+})
 app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`))

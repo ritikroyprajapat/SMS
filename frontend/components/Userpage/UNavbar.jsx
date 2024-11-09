@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Cookies from "js-cookie"
 import Logout from '../Logout.jsx';
-import Hero from '../hero.jsx'
+import Hero from '../Hero.jsx'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
